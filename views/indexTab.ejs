@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Hotel</title>
+    <link rel="stylesheet" href="/styleTab.css">
+</head>
+
+<body>
+    <div class="screen">
+    <div class="logo">
+        <img src="/tunefy.svg" alt=""><span style= "cursor: pointer;
+    font-size: 85px; color: white;">Tunify</span>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img id="copy" src="/images/download10.jpeg" alt=""> 
+        </div>
+        <div class="text">
+            <ul>
+                <li><h1 id="song-name">Song Name: <%= song.songName %></h1></li>
+                <li><h2 id="singer">Singer: <%= song.singer %></h2></li>
+                <li><h2 id="components">Music Components: <%= song.components %></h2></li>
+                <li><h2 id="date">Added on: <%= song.addedOn %></h2></li>
+                    
+                <li>
+                    <h2>share on:
+                        <a href="https://web.whatsapp.com/" target="_main">
+                            <img src="/whatsapp.svg" alt=""></a>
+                        <a href="https://www.facebook.com/login/" target="_main">
+                            <img src="/facebook.svg" alt=""></a>
+                        <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"
+                            target="_main">
+                            <img src="/twitter.svg" alt=""></a>
+                    </h2>
+
+                </li>
+            </ul>
+        </div>
+        <div class="audio-play">
+            <audio src="/Songs/song3.mp3" controls>
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        
+
+    </div>
+</div>
+</body>
+
+</html>

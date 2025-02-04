@@ -1,0 +1,5 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="100" cy="100" r="100" fill="green"/>
+    <circle cx="100" cy="60" r="30" fill="white"/>
+    <text x="50%" y="150" font-family="Arial" font-size="24" fill="white" text-anchor="middle" alignment-baseline="middle">Tunefy</text>
+</svg>

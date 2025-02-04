@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.screen{
+    height: 100vh;
+    background-color: black;
+    
+
+}
+.container{
+    /* border: 5px solid white; */
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: #121212;
+    color: white;
+    margin: 60px;
+    
+}
+.logo img{
+    width: 90px;
+    padding-top:30px;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 85px;
+    margin: 10px;
+    
+}
+.image img{
+    width: 350px;
+    border: 5px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text{
+    padding: 20px;
+}
+.text ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.audio-play{
+    top: 25px;
+    align-items: flex-end;
+}
